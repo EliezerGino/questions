@@ -33,7 +33,7 @@ class _PerguntaAppState extends State<QuestionsApp>{
     List<String> respostas = perguntas[perguntaSelecionada]['resposta'];
     List<Widget> widgets = respostas
       .map((t) => Resposta(t, _responder))
-      .toList();
+      .toList();p_
 
     return MaterialApp(
       home:  Scaffold(
